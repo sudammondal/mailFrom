@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: 'Roboto', sans-serif; }
+  body a {
+    text-decoration: none; }
+  body ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+.main {
+  margin: 50px 0; }
+  .main .clandear {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-bottom: 30px; }
+    .main .clandear .caln_item {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      border: 1px solid #dedede;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      padding: 11px 18px; }
+      .main .clandear .caln_item .imgs {
+        width: 22px;
+        height: 23px; }
+      .main .clandear .caln_item .clandear_pra {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 10px;
+        color: #3f3f3f; }
+    .main .clandear button {
+      padding: 11px 18px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      border: 1px solid #dedede;
+      margin-left: -5px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #f5f5f5; }
+      .main .clandear button .imgs {
+        width: 22px;
+        height: 25px; }
+  .main .mail_h5 .mailh5 {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 700; }
+    .main .mail_h5 .mailh5 span {
+      font-size: 22px; }
+  .main table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%; }
+    .main table tr th {
+      border-top: 1px solid #dedede;
+      border-bottom: 1px solid #dedede;
+      text-align: left;
+      padding: 10px 15px;
+      background-color: #f5f5f5;
+      color: #666666; }
+      .main table tr th:nth-child(3) {
+        padding-left: 35px; }
+    .main table tr td {
+      border-top: 1px solid #dedede;
+      border-bottom: 1px solid #dedede;
+      text-align: left;
+      padding: 10px 15px;
+      color: #333333;
+      width: auto;
+      position: relative;
+      -webkit-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+      .main table tr td .nfaction {
+        display: inline-block;
+        background: #666666b3;
+        padding: 2px 6px;
+        font-size: 11px;
+        position: absolute;
+        margin-left: 10px;
+        right: 0;
+        top: 15px;
+        color: #fff;
+        border-radius: 3px;
+        line-height: initial; }
+      .main table tr td:nth-child(3) {
+        padding-left: 35px;
+        padding-right: 0; }
+        .main table tr td:nth-child(3) span {
+          float: right; }
+          .main table tr td:nth-child(3) span svg {
+            width: 18px;
+            max-width: 20px;
+            fill: #333333; }
+    .main table tr .date {
+      text-align: left;
+      color: #111111; }
+    .main table tr:hover
+td {
+      cursor: pointer;
+      color: #0033dd; }
+      .main table tr:hover
+td span svg {
+        fill: #0033dd; }
+    .main table tr:hover .date {
+      color: #111111; }
+  .main .logo_brand .logo {
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 115px 0; }
