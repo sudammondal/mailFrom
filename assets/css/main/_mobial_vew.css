@@ -1,0 +1,21 @@
+.mobial_vew .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1; }
+  .mobial_vew .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 17px; }
+
+.mobial_vew .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none; }
